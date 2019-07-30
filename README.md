@@ -10,7 +10,13 @@ We tested the following formats, and their compression style:
 * GIF, Lossless compression
 * BMP, Lossless compression
 
+I had some techincal issue running this. I found easier to install
+pip using:
+`sudo apt-get install python-pip --yes`
+
 The experiments are conducted with Python and the OpenSlide library.
+To install OpenSlide in python use:
+`pip install openslide-python`
 
 # Experiments
 We extract tiles with different sizes from an image in the TCGA project.
