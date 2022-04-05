@@ -1,0 +1,87 @@
+from pyspark.ml.image import ImageSchema
+from pyspark.ml.classification import LogisticRegression
+from pyspark.ml.evaluation import MulticlassClassificationEvaluator
+from pyspark.ml import Pipeline
+from sparkdl import DeepImageFeaturizer
+from pyspark.sql import Row, Column
+from pyspark.sql.functions import udf
+from pyspark.sql.types import BinaryType, StringType, _create_row
+
+import io
+import PIL
+from PIL import Image
+import numpy
+
+#
+#def makePIL(img):
+#  imgArr = numpy.asarray(img)
+#  img = Image.fromarray(imgArr)
+#  return img.mode
+#
+#def makePIL_v1(img):
+#  imgFile = io.BytesIO(bytearray(img))
+#  img = Image.open(imgFile)
+#  return img.mode
+#
+#def makePIL_v2(img):
+#  imgFile = io.BytesIO(bytearray(img))
+#  img = Image.open(imgFile)
+#  img = img.convert("RGB")
+#  imgArr = numpy.asarray(img)
+#  theImage = ImageSchema.toImage(imgArr)
+#  return theImage
+#
+
+def bytesToImage(img):
+  imgFile = io.BytesIO(bytearray(img))
+  img = Image.open(imgFile)
+  imgArr = numpy.asarray(img)
+  height, width, nChannels = imgArr.shape
+  ocvTypes = {'CV_8UC4':24, 'CV_8U': 0, 'CV_8UC1':0, 'Undefined':-1, 'CV_8UC3':16}
+  if nChannels == 1:
+    mode = ocvTypes["CV_8UC1"]
+  elif nChannels == 3:
+    mode = ocvTypes["CV_8UC3"]
+  elif nChannels == 4:
+    mode = ocvTypes["CV_8UC4"]
+  else:
+    raise ValueError("Invalid number of channels")
+  data = bytearray(imgArr.astype(dtype=numpy.uint8).ravel().tobytes())
+  fields = ['origin', 'height', 'width', 'nChannels', 'mode', 'data']
+  x = _create_row(fields,["", height, width, nChannels, mode, data])
+  return x
+
+udf_makePIL = udf(makePIL_v1, StringType())
+udf_toImage = udf(bytesToImage, ImageSchema.imageSchema['image'].dataType)
+
+data = spark.read.orc("hdfs://vm0:9000/wsi/orc/db.orc")
+data.createOrReplaceTempView("data")
+imgs = spark.sql("select bytes from data where fileId='img_1.svs-1'")
+
+resDF = data.withColumn("IMG", udf_toImage("bytes"))
+
+featurizer = DeepImageFeaturizer(inputCol="IMG", outputCol="features", modelName="InceptionV3")
+p = Pipeline(stages=[featurizer])
+model = p.fit(resDF)
+res = model.transform(resDF).first()
+
+
+#
+## Inspect training error
+#df = model.transform(imgs.limit(10)).select("image", "probability",  "uri", "label")
+#
+#
+#
+#
+#
+#
+#def getFileName(strPath):
+#	fileName = strPath.encode("ascii", "ignore").split("/")[-1]
+#	return fileName
+#
+#udfTag = udf(lambda row: getFileName(row))
+#
+#image_df = ImageSchema.readImages("hdfs://vm0:9000/train_data")
+#labels = image_df.withColumn("tag", udfTag(col("image.origin")))
+#
+#

@@ -1,0 +1,1 @@
+PYSPARK_PYTHON=/usr/local/anaconda/anaconda2/envs/tensorflow-env/bin/python2.7 pyspark --master spark://vm0:7077 --num-executors 3 --executor-cores 8 --executor-memory 30G --driver-memory 20G --packages databricks:spark-deep-learning:1.2.0-spark2.3-s_2.11

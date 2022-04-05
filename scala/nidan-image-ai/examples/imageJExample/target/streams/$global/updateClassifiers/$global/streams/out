@@ -1,0 +1,620 @@
+[0m[[0m[0mdebug[0m] [0m[0m:: resolving dependencies :: default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT[0m
+[0m[[0m[0mdebug[0m] [0m[0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool][0m
+[0m[[0m[0mdebug[0m] [0m[0m	validate = true[0m
+[0m[[0m[0mdebug[0m] [0m[0m	refresh = false[0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'compile'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT [compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.11.8 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.8[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found org.scala-lang#scala-library;2.11.8 in sbt-chain[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[2.11.8] org.scala-lang#scala-library;2.11.8[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: net.imagej#ij;1.52n {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: net.imagej#ij;1.52n[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found net.imagej#ij;1.52n in sbt-chain[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'runtime'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT [runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT [compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [runtime->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [runtime->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'test'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT [test][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT [runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT [compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [runtime->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [runtime->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [test->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [test->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [test->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [test->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'provided'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT [provided][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'optional'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT [optional][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'compile-internal'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT [compile-internal][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT [compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT [optional][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT [provided][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile-internal->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile-internal->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile-internal->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile-internal->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'runtime-internal'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT [runtime-internal][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT [runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT [compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [runtime->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [runtime->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT [optional][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime-internal->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime-internal->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [runtime-internal->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [runtime-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [runtime-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [runtime-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [runtime-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [runtime-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [runtime-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [runtime-internal->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [runtime-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [runtime-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [runtime-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [runtime-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'test-internal'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT [test-internal][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT [test][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT [runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT [compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [runtime->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [runtime->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [test->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [test->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [test->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [test->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT [optional][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT [provided][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [test-internal->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [test-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [test-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [test-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [test-internal->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [test-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [test-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [test-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [test-internal->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [test-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [test-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [test-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [test-internal->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [test-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [test-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->net.imagej#ij;1.52n [test-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'plugin'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT [plugin][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'pom'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT [pom][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'scala-tool'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT [scala-tool][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [scala-tool->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [scala-tool->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [scala-tool->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [scala-tool->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [scala-tool->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [scala-tool->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [scala-tool->optional][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [scala-tool->optional(default)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [scala-tool->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [scala-tool->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 in sbt-chain[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [scala-tool->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [scala-tool->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [scala-tool->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [scala-tool->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [scala-tool->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.11.8 [scala-tool->default][0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, compile, runtime, optional, optional(default), master]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.11.8[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found org.scala-lang#scala-compiler;2.11.8 in sbt-chain[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.11.8 [scala-tool->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.11.8 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.11.8 [scala-tool->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.11.8 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.11.8 [scala-tool->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.11.8 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.11.8 [scala-tool->optional][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.11.8 [scala-tool->optional(default)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.11.8 [scala-tool->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.4 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.4 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.4[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found org.scala-lang.modules#scala-xml_2.11;1.0.4 in sbt-chain[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.4 [scala-tool->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.4 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.4 [scala-tool->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.4 [scala-tool->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.4 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.4 [scala-tool->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.4 [scala-tool->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->jline#jline;2.12.1 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: jline#jline;2.12.1 {scala-tool=[compile, master(compile), compile(*), master]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: jline#jline;2.12.1[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found jline#jline;2.12.1 in sbt-chain[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->jline#jline;2.12.1 [scala-tool->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->jline#jline;2.12.1 [scala-tool->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->jline#jline;2.12.1 [scala-tool->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.8 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.8[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found org.scala-lang#scala-reflect;2.11.8 in sbt-chain[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[2.11.8] org.scala-lang#scala-reflect;2.11.8[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [scala-tool->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [scala-tool->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [scala-tool->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [scala-tool->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.11.8 [scala-tool->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m	resolved ivy file produced in cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: downloading artifacts ::[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/daniel/.ivy2/local/org.scala-lang/scala-library/2.11.8/srcs/scala-library-sources.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/daniel/.ivy2/local/net.imagej/ij/1.52n/docs/ij-javadoc.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/daniel/.ivy2/local/org.scala-lang/scala-compiler/2.11.8/srcs/scala-compiler-sources.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/daniel/.ivy2/local/org.scala-lang.modules/scala-parser-combinators_2.11/1.0.4/docs/scala-parser-combinators_2.11-javadoc.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/daniel/.ivy2/local/net.imagej/ij/1.52n/srcs/ij-sources.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/daniel/.ivy2/local/org.scala-lang/scala-compiler/2.11.8/docs/scala-compiler-javadoc.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/daniel/.ivy2/local/org.scala-lang.modules/scala-parser-combinators_2.11/1.0.4/srcs/scala-parser-combinators_2.11-sources.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/net/imagej/ij/1.52n/ij-1.52n-javadoc.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.8/scala-compiler-2.11.8-sources.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4-javadoc.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/daniel/.ivy2/local/org.scala-lang/scala-library/2.11.8/docs/scala-library-javadoc.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/daniel/.ivy2/local/jline/jline/2.12.1/srcs/jline-sources.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/daniel/.ivy2/local/org.scala-lang.modules/scala-xml_2.11/1.0.4/srcs/scala-xml_2.11-sources.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/daniel/.ivy2/local/jline/jline/2.12.1/docs/jline-javadoc.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1-sources.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/daniel/.ivy2/local/org.scala-lang/scala-reflect/2.11.8/docs/scala-reflect-javadoc.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/daniel/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/daniel/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/daniel/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/daniel/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/daniel/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/daniel/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/daniel/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/daniel/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/daniel/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/daniel/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/daniel/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/daniel/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/daniel/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/daniel/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (11ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (10ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/daniel/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/daniel/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/daniel/.ivy2/local/org.scala-lang.modules/scala-xml_2.11/1.0.4/docs/scala-xml_2.11-javadoc.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/daniel/.ivy2/local/org.scala-lang/scala-reflect/2.11.8/srcs/scala-reflect-sources.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4-sources.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8-javadoc.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.8/scala-compiler-2.11.8-sources.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.8/scala-compiler-2.11.8-sources.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1-sources.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1-sources.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4-javadoc.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4-javadoc.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4-sources.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4-sources.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8-javadoc.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8-javadoc.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1-sources.jar.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4-sources.jar.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1-sources.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] jline#jline;2.12.1!jline.jar(src) (320ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1-javadoc.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4-sources.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(src) (308ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4-javadoc.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1-javadoc.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1-javadoc.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/net/imagej/ij/1.52n/ij-1.52n-javadoc.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/net/imagej/ij/1.52n/ij-1.52n-javadoc.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4-javadoc.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4-javadoc.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1-javadoc.jar.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1-javadoc.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] jline#jline;2.12.1!jline.jar(doc) (351ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.8/scala-compiler-2.11.8-sources.jar.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4-javadoc.jar.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4-javadoc.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(doc) (948ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4-sources.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.8/scala-compiler-2.11.8-sources.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4-sources.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4-sources.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.11.8!scala-compiler.jar(src) (973ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.8/scala-compiler-2.11.8-javadoc.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.8/scala-compiler-2.11.8-javadoc.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.8/scala-compiler-2.11.8-javadoc.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4-sources.jar.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4-sources.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(src) (212ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] org.scala-lang#scala-library;2.11.8!scala-library.jar(src) (1252ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-javadoc.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-javadoc.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-javadoc.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4-javadoc.jar.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/net/imagej/ij/1.52n/ij-1.52n-javadoc.jar.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4-javadoc.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(doc) (994ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/net/imagej/ij/1.52n/ij-1.52n-javadoc.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] net.imagej#ij;1.52n!ij.jar(doc) (1363ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/net/imagej/ij/1.52n/ij-1.52n-sources.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/net/imagej/ij/1.52n/ij-1.52n-sources.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/net/imagej/ij/1.52n/ij-1.52n-sources.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/net/imagej/ij/1.52n/ij-1.52n-sources.jar.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/net/imagej/ij/1.52n/ij-1.52n-sources.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] net.imagej#ij;1.52n!ij.jar(src) (670ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8-javadoc.jar.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8-javadoc.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.11.8!scala-reflect.jar(doc) (2416ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8-sources.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8-sources.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8-sources.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8-sources.jar.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8-sources.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.11.8!scala-reflect.jar(src) (410ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-javadoc.jar.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-javadoc.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] org.scala-lang#scala-library;2.11.8!scala-library.jar(doc) (2327ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.8/scala-compiler-2.11.8-javadoc.jar.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.8/scala-compiler-2.11.8-javadoc.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.11.8!scala-compiler.jar(doc) (3879ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: resolution report :: resolve 97ms :: artifacts dl 4861ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT compile produced in /Users/daniel/Code/GitHubRepos/nidan-image-ai/examples/imageJExample/target/scala-2.11/resolution-cache/reports/default-imagejexample$sources_javadoc-compile.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT runtime produced in /Users/daniel/Code/GitHubRepos/nidan-image-ai/examples/imageJExample/target/scala-2.11/resolution-cache/reports/default-imagejexample$sources_javadoc-runtime.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT test produced in /Users/daniel/Code/GitHubRepos/nidan-image-ai/examples/imageJExample/target/scala-2.11/resolution-cache/reports/default-imagejexample$sources_javadoc-test.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT provided produced in /Users/daniel/Code/GitHubRepos/nidan-image-ai/examples/imageJExample/target/scala-2.11/resolution-cache/reports/default-imagejexample$sources_javadoc-provided.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT optional produced in /Users/daniel/Code/GitHubRepos/nidan-image-ai/examples/imageJExample/target/scala-2.11/resolution-cache/reports/default-imagejexample$sources_javadoc-optional.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT compile-internal produced in /Users/daniel/Code/GitHubRepos/nidan-image-ai/examples/imageJExample/target/scala-2.11/resolution-cache/reports/default-imagejexample$sources_javadoc-compile-internal.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT runtime-internal produced in /Users/daniel/Code/GitHubRepos/nidan-image-ai/examples/imageJExample/target/scala-2.11/resolution-cache/reports/default-imagejexample$sources_javadoc-runtime-internal.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT test-internal produced in /Users/daniel/Code/GitHubRepos/nidan-image-ai/examples/imageJExample/target/scala-2.11/resolution-cache/reports/default-imagejexample$sources_javadoc-test-internal.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT plugin produced in /Users/daniel/Code/GitHubRepos/nidan-image-ai/examples/imageJExample/target/scala-2.11/resolution-cache/reports/default-imagejexample$sources_javadoc-plugin.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT pom produced in /Users/daniel/Code/GitHubRepos/nidan-image-ai/examples/imageJExample/target/scala-2.11/resolution-cache/reports/default-imagejexample$sources_javadoc-pom.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#imagejexample$sources_javadoc;0.1.0-SNAPSHOT scala-tool produced in /Users/daniel/Code/GitHubRepos/nidan-image-ai/examples/imageJExample/target/scala-2.11/resolution-cache/reports/default-imagejexample$sources_javadoc-scala-tool.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	resolve done (97ms resolve - 4861ms download)[0m

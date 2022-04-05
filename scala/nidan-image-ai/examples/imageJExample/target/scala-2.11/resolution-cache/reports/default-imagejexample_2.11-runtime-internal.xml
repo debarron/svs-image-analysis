@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="imagejexample_2.11"
+		revision="0.1.0-SNAPSHOT"
+		conf="runtime-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
+		date="20190403110118"/>
+	<dependencies>
+		<module organisation="net.imagej" name="ij">
+			<revision name="1.52n" status="release" pubdate="20190322114029" resolver="public" artresolver="public" homepage="https://imagej.net/" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="Public domain" url="https://imagej.net/disclaimer.html"/>
+				<metadata-artifact status="successful" details="" size="3375" time="103" location="/Users/daniel/.ivy2/cache/net.imagej/ij/ivy-1.52n.xml" searched="true" original-local-location="/Users/daniel/.ivy2/cache/net.imagej/ij/ivy-1.52n.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/imagej/ij/1.52n/ij-1.52n.pom"/>
+				<caller organisation="default" name="imagejexample_2.11" conf="compile, runtime-internal, runtime, optional" rev="1.52n" rev-constraint-default="1.52n" rev-constraint-dynamic="1.52n" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="ij" type="jar" ext="jar" status="successful" details="" size="2301486" time="455" location="/Users/daniel/.ivy2/cache/net.imagej/ij/jars/ij-1.52n.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/imagej/ij/1.52n/ij-1.52n.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.11.8" status="release" pubdate="20160304092633" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.8/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2653" time="0" location="/Users/daniel/.ivy2/cache/org.scala-lang/scala-library/ivy-2.11.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.pom"/>
+				<caller organisation="default" name="imagejexample_2.11" conf="compile, runtime-internal, runtime, optional" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5744974" time="0" location="/Users/daniel/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
